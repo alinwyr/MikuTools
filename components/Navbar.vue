@@ -3,21 +3,16 @@
         <header>
             <h1 class="title">
                 <nuxt-link to="/">
-                    MikuTools - 工具集合
+                    ToolMixer - 工具集合
                 </nuxt-link>
             </h1>
-            <Panel />
         </header>
     </div>
 </template>
 
 <script>
-import Panel from '~/components/Panel';
 export default {
     name: 'Navbar',
-    components: {
-        Panel
-    }
 };
 </script>
 

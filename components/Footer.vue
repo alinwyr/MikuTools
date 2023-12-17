@@ -12,13 +12,13 @@
             </svg>
         </a>
         
-        <a title="GitHub" href="https://github.com/Ice-Hazymoon/MikuTools" target="_blank" rel="noopener noreferrer">
+        <a title="GitHub" href="https://github.com/Ice-Hazymoon/ToolMixer" target="_blank" rel="noopener noreferrer">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-github" />
             </svg>
         </a>
         
-        <a title="Telegram" href="https://t.me/mikutools" target="_blank" rel="noopener noreferrer">
+        <a title="Telegram" href="https://t.me/ToolMixer" target="_blank" rel="noopener noreferrer">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-telegram" />
             </svg>
