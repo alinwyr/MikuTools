@@ -72,11 +72,10 @@
                 </li>
                 <li><b>欢迎将本站收藏到收藏夹，以便以后使用</b></li>
                 <li>
-                    本站域名：<a
-                        :href="$store.state.env.url"
-                        target="_blank"
+                    联系方式<a
+                        href="wangyiranalin@gmail.com"
                         rel="noopener noreferrer"
-                    >{{ $store.state.env.domain }}</a>
+                    >wangyiranalin@gmail.com</a>
                 </li>
                 <li v-if="$store.state.isMobile.any">
                     如果遇到无法使用或者样式问题，请更换浏览器后重试，推荐使用 Chrome 浏览器，对 iOS 设备兼容性可能不太好
@@ -84,28 +83,6 @@
             </ul>
         </nya-container>
 
-        <nya-container v-if="!$store.state.setting.hidePay" v-show="!searchText" title="打赏" icon="credit-card-outline">
-            <ul class="pay">
-                <li>
-                    <img src="../assets/qq.png" alt="qq">
-                    <div class="name">
-                        QQ
-                    </div>
-                </li>
-                <li>
-                    <img src="../assets/weixin.png" alt="weixin">
-                    <div class="name">
-                        微信
-                    </div>
-                </li>
-                <li>
-                    <img src="../assets/alipay.png" alt="alipay">
-                    <div class="name">
-                        支付宝
-                    </div>
-                </li>
-            </ul>
-        </nya-container>
     </div>
 </template>
 
