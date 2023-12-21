@@ -44,7 +44,7 @@ yarn dev
 
 ```bash
 yarn install
-yarn buildd
+yarn build
 ```
 
 ## 其他
