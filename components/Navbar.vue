@@ -3,7 +3,7 @@
         <header>
             <h1 class="title">
                 <nuxt-link to="/">
-                    ToolMixer - 工具集合
+                    ToolMixer - $t('gongjujihe')
                 </nuxt-link>
             </h1>
         </header>

@@ -166,6 +166,7 @@ module.exports = {
         '@nuxtjs/axios',
         '@nuxtjs/pwa',
         '@nuxtjs/style-resources',
+        '@nuxtjs/i18n'
         // [
         //     '@nuxtjs/google-analytics',
         //     {
@@ -183,6 +184,9 @@ module.exports = {
             }
         ]
     ],
+    i18n: {
+        vueI18n: './i18n.config.js' // if you are using custom path, default 
+    },
     /*
      ** Axios module configuration
      */
